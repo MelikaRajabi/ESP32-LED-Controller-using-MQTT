@@ -1,0 +1,16 @@
+user ESP32
+topic  write SIOT/response
+topic  read SIOT/LED
+
+user Sara
+topic write SIOT/LED
+topic read SIOT/response
+
+user Sam
+topic write SIOT/LED
+topic read SIOT/response
+
+user Alice
+topic write SIOT/LED
+topic read SIOT/response
+
